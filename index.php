@@ -1,3 +1,12 @@
+<?php
+session_start();
+include './config.php';
+if(isset($_SESSION['check_logged'])){
+    header("Location: $baseurl/home.php");
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +39,7 @@
             align-items: center;
             display: none;
         }
-        
+    
     </style>
 </head>
 <body>

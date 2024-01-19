@@ -1,6 +1,10 @@
 
-    <div class="container w-25">
-    <form class="form-control" action="">
+    <div class="container w-25 ">
+    <form class="form-control mt-5" action="reg-data.php" method="POST">
+        <div class="icon text-end me-3 ">
+        <i style="cursor:pointer" class="bi bi-x-lg ms-end position-absolute"></i>
+        </div>
+    
         <h4>SignUp</h4>
         <p>it's quick and easy.</p>
         <hr>
@@ -14,7 +18,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12 mt-2">
-            <input class="form-control" type="text" name="m-mail" placeholder="Mobile number or email address">
+            <input class="form-control" type="text" name="m_mail" placeholder="Mobile number or email address">
             </div>
         </div>
         <div class="row">

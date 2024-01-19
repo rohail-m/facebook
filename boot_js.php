@@ -4,8 +4,13 @@ crossorigin="anonymous"></script>
 <script>
     let btn = document.querySelector('.reg');
     let form = document.querySelector('.reg-form');
+    let icon = document.querySelector('.bi-x-lg');
     btn.addEventListener('click',(e)=>{
         e.preventDefault();
         form.style.display = 'block';
+    })
+
+    icon.addEventListener('click',()=>{
+        form.style.display = 'none';
     })
 </script>
